@@ -206,5 +206,5 @@ COPY --from=buildstage /picons /picons
 COPY root/ /
 
 # ports and volumes
-EXPOSE 9981 9982
+EXPOSE 9991 9992
 VOLUME /config
