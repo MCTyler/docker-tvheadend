@@ -30,10 +30,10 @@ pipeline {
     MULTIARCH='true'
     CI='true'
     CI_WEB='true'
-    CI_PORT='9981'
+    CI_PORT='9991'
     CI_SSL='false'
     CI_DELAY='120'
-    CI_DOCKERENV='TZ=US/Pacific'
+    CI_DOCKERENV='TZ=US/Chicago'
     CI_AUTH='user:password'
     CI_WEBPATH=''
   }
