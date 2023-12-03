@@ -4,7 +4,7 @@ vflag=
 cflag=
 if (( $# < 1 ))
 then
-  curl "http://192.168.1.8/Strmz.xml"
+  curl "http://192.168.1.8/4k.xml"
   exit 0
 fi
 
