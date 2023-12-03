@@ -12,7 +12,7 @@ FROM ghcr.io/linuxserver/baseimage-alpine:3.18 as buildstage
 ARG ARGTABLE_VER="2.13"
 
 # environment settings
-ARG TZ="Etc/UTC"
+ARG TZ="US/Chicago"
 ARG TVHEADEND_COMMIT
 ENV HOME="/config"
 
