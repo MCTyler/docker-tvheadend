@@ -36,8 +36,8 @@ param_volumes:
   - { vol_path: "/recordings", vol_host_path: "/path/to/recordings", desc: "Where you want the PVR to store recordings." }
 param_usage_include_ports: true
 param_ports:
-  - { external_port: "9981", internal_port: "9991", port_desc: "WebUI" }
-  - { external_port: "9982", internal_port: "9992", port_desc: "HTSP server port." }
+  - { external_port: "9991", internal_port: "9991", port_desc: "WebUI" }
+  - { external_port: "9992", internal_port: "9992", port_desc: "HTSP server port." }
 param_device_map: false
 cap_add_param: false
 
